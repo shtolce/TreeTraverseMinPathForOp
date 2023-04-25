@@ -45,6 +45,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             minPath = new List<TreeNode<TreeValue>>();
+
             pathes = new Dictionary<int, TreeValue>();
             pathNo = 0;
             array = new TreeValue[10, 10];
