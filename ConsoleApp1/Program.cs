@@ -13,6 +13,9 @@ namespace ConsoleApp1
 
         static TreeValue[,] array;
         static int pathNo;
+        /// <summary>
+        /// реализуем IComparable,для поисков max min
+        /// </summary>
         private struct TreeValue:IComparable<TreeValue>
         {
             public int op;
