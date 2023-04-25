@@ -45,7 +45,7 @@ namespace ConsoleApp1
             }
         }
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             minPath = new List<TreeNode<TreeValue>>();
 
